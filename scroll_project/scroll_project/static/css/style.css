@@ -1,9 +1,25 @@
-h1 {
-    color: green;
+@media (max-width: 600px) {
+    .hide_mobile {
+        display: none;
+    }
+    h1 {
+        font-size: 25px;
+    }
 }
 
-textarea  
-{  
-   font-family:Monaco;  
-   font-size: 12px;   
+.img-responsive {
+    width: 100%;
+}
+
+h1 {
+    color: green;
+    padding-left: 25px
+}
+
+h2 {
+    padding-left: 25px
+}
+
+#textboxdiv {
+    padding-left: 25px
 }
